@@ -60,3 +60,48 @@ button {
     background-size: 75%;
     margin-top: -20px;
 }
+
+.imgquienes {
+    height: 25rem;
+    width: 35rem;
+    padding: 2rem 4rem;
+    margin: 1rem;
+    border: 1px;
+    border-style: groove ridge;
+}
+
+.transform:hover {
+    transition: 0.5s;
+    transform: scale(1.03);
+}
+
+.contenido1 {
+    line-height: 2rem;
+    padding: 2rem 4rem;
+    margin: 1rem;
+    text-align: justify;
+    height: 25rem;
+    width: 35rem;  
+    border: 1px;
+    border-style: groove ridge;
+}
+
+.contenido2 {
+    line-height: 1.5rem;
+    text-align: center;    
+    border: 1px;
+    border-style: groove ridge;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+#ubicacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+iframe {
+    width: 80%;
+    padding: 1rem;
+    margin: auto;
+}

@@ -1,0 +1,62 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+button {
+    font-family: 'Bitter', serif;
+}
+
+.nav-link:hover {
+    transform: scale(1.05);
+}
+
+#ribbon {
+    background-color: rgb(255, 255, 255);
+}
+
+#ribbon::after {
+    content: '';
+    background-color: transparent;
+    display: block;
+    height: 20px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+    margin-top: -40px;
+}
+
+#separador {
+    position: relative;
+    margin-top: -20px;
+    z-index: 10;
+}
+
+#separador img {
+    position: relative;
+    margin-top: -30px;
+}
+
+.text-shadow {
+    text-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
+}
+
+.card-border {
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+
+.card-border:hover {
+    transform: scale(1.05);
+}
+
+#presentaciones {
+    background: rgb(250, 250, 250);
+    background: linear-gradient(0deg, white 0%, black 57%);
+    background-repeat: repeat-x;
+    background-size: 75%;
+    margin-top: -20px;
+}
